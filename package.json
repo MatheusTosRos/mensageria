@@ -1,0 +1,19 @@
+{
+  "name": "bullmq-atividade",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start:producer": "node producer.js",
+    "start:consumer": "node consumer.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bullmq": "^5.21.2",
+    "dotenv": "^16.4.5",
+    "ioredis": "^5.4.1"
+  }
+}
